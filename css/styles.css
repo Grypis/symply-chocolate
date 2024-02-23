@@ -87,6 +87,13 @@ body {
     font-size: 18px;
     line-height: 1.11;
     letter-spacing: -0.03em;
+    display: flex;
+    align-items: center;
+
+}
+
+.logo-icon {
+    margin-left: 4px;
 }
 
 .text-italic {
