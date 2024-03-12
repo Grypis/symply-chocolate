@@ -415,7 +415,7 @@
               </p>
             </li>
           </ul>
-          <button class="leave-review-btn" type="button">Leave a review</button>
+          <button class="leave-review-btn" type="button" data-modal-open>Leave a review</button>
         </div>
       </section>
     </main>
@@ -467,9 +467,9 @@
       </div>
     </footer>
 
-    <div class="backdrop is-open">
+    <div class="backdrop is-open" data-modal>
       <div class="modal">
-        <button class="modal-close-btn" type="button">
+        <button class="modal-close-btn" type="button" data-modal-close>
           <svg
             class="modal-close-btn-icon"
             width="28"
@@ -576,5 +576,6 @@
         </form>
       </div>
     </div>
+    <script src="./js/modal.js"></script>
   </body>
 </html>
